@@ -1,0 +1,85 @@
+﻿using System;
+
+namespace HomeTasks17
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //#region Verilmis ededler siyahisindaki 3 e bolunen ededlerin ortalamasi.
+            //int[] arr = { 1, 9, 8, 16, 85, 45, 81, 84, 27, 48 };
+            //int count = 0;
+            //int sum = 0;
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i] % 3 == 0)
+            //    {
+            //        sum = sum + arr[i];
+            //        count++;
+            //    }
+            //}
+
+            //double average = sum / count;
+            //Console.WriteLine(average);
+
+
+
+            //#region verilmis ededler siyahisindaki ən böyük ədədin tapılması.
+
+            //int[] arr = { 2, 5, 9, 3, 56, 85, 54, 78, 25, 42 };
+            //int max = 0;
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i] > max)
+            //    {
+            //        max = arr[i];
+            //    }
+            //}
+            //Console.WriteLine(max);
+
+
+
+            //#region Verilmis a,b,c ededleri uzerinden en kicik olanini tapan proqram
+            //int a = 20;
+            //int b = 40;
+            //int c = 25;
+
+            //if (a <= b && a <= c)
+            //{
+            //    Console.WriteLine("En kicik eded: " + a);
+
+            //}
+            //else if (b <= c && b <= a)
+            //{
+            //    Console.WriteLine("En kicik eded: " + b);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("En kicik eded: " + c);
+            //}
+
+
+            //#region Verilmis ededler siyahisinda uc reqemli ededin olub olmadigini gosteren proqram
+            //int[] numbers = { 65, 78, 25, 35, 564, 598 };
+            //int num = 0;
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    if (numbers[i] > 99 && numbers[i] < 1000 || numbers[i] > -1000 && numbers[i] < -99)
+            //    {
+            //        num++;
+            //        break;
+            //    }
+
+            //}
+            //if (num > 0)
+            //{
+            //    Console.WriteLine("Bu siyahida 3 reqemli eded var");
+
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Bu siyahida 3 reqemli eded yoxdur");
+            //}
+        }
+    }
+}
